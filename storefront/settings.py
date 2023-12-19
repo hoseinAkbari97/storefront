@@ -102,9 +102,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'storefront3',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD': '0019533209H_a'
+        'PASSWORD': 'P@ssword',
     }
 }
 
@@ -183,3 +183,6 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 2525
 DEFAULT_FROM_EMAIL = 'from@moshbuy.com'
+
+
+CELERY_BROKER_URL = 'redis://localhost:6379/1'
