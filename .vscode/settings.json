@@ -3,6 +3,7 @@
         "corsheaders",
         "filterset",
         "simplejwt",
+        "ssword",
         "viewsets"
     ],
     "python.analysis.typeCheckingMode": "off",
