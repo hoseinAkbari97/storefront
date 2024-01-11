@@ -5,7 +5,8 @@
         "httpbin",
         "simplejwt",
         "ssword",
-        "viewsets"
+        "viewsets",
+        "whitenoise"
     ],
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": false
