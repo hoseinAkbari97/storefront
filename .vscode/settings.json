@@ -3,6 +3,7 @@
         "corsheaders",
         "filterset",
         "httpbin",
+        "levelname",
         "simplejwt",
         "ssword",
         "viewsets",
