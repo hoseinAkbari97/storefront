@@ -5,6 +5,7 @@
         "filterset",
         "httpbin",
         "levelname",
+        "orderitems",
         "simplejwt",
         "ssword",
         "viewsets",
