@@ -1,9 +1,10 @@
 from .common import *
+from dotenv import load_dotenv
+load_dotenv()
 
+DEBUG = os.environ.get('DEBUG')
 
-DEBUG = True
-
-SECRET_KEY =
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 DATABASES = {
